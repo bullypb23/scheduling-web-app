@@ -19,7 +19,7 @@ You can also download the entire repository as a zip file and unpack in on your 
 
 After cloning the application, you need to install it's dependencies.
 ```
-$ cd scheduling-app
+$ cd scheduling-web-app
 $ composer install
 npm install
 ```
