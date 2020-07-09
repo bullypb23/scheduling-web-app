@@ -1,0 +1,27 @@
+@mixin flex($justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: $primary;
+  bottom: 0;
+  transition: all 0.2s ease-in;
+}
+
+@mixin changeEvent($color) {
+  height: 100%;
+  width: 50%;
+  background-color: $color;
+  color: #fff;
+  font-size: 1rem;
+  margin-left: 0;
+  padding: 10px;
+  @include flex(center, center);
+  cursor: pointer;
+}
